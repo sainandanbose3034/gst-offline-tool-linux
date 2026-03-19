@@ -1,11 +1,11 @@
-﻿GST Offline Tool for Linux (GSTR1-Offline)
+﻿**GST Offline Tool for Linux (GSTR1-Offline)**
 A standalone, portable Linux port of the GST Offline Tool. This project packages the Node.js backend, Express server, and frontend assets into a single AppImage, allowing for a "zero-install" experience on modern Linux distributions like Zorin OS 18, Ubuntu 24.04, and Linux Mint.
-Features
+**Features**
 * Portable AppImage: No need to install Node.js, npm, or any dependencies manually.
 * Automated Startup: Automatically launches a local server on port 3010 and opens your default browser.
 * Optimized for Linux: Fixed internal pathing issues and dependency bundling (Jade/Pug) for consistent performance in a virtual filesystem.
 * Native Integration: Includes high-quality icons and is fully compatible with AppImageLauncher.
-Installation & Usage
+**Installation & Usage**
 1. Download
 Download the latest .AppImage file from the Releases page.
 2. Make it Executable
