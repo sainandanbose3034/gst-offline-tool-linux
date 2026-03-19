@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules/
+
+# Logs
+*.log
+debug_log.txt
+startup_log.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables (Sensitive info)
+.env
+
+# Linux-specific shortcuts
+*.desktop
