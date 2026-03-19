@@ -1,17 +1,5 @@
-# Dependency directories
+gst-backend
+appimagetool-x86_64.AppImage
+GST_Offline_Tool-x86_64.AppImage
+GST_Tool.AppDir/
 node_modules/
-
-# Logs
-*.log
-debug_log.txt
-startup_log.txt
-
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# Environment variables (Sensitive info)
-.env
-
-# Linux-specific shortcuts
-*.desktop

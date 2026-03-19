@@ -1,16 +1,25 @@
 {
   "name": "GSTR1-Offline",
-  "main": "index.html",
-  "node-main": "./app.js",
-  "window": {
-    "min_width": 1024,
-    "min_height": 600,
-    "icon": "icon/icon.png"
-  },
   "version": "2.2.3",
+  "description": "GST Offline Tool for Linux",
+  "main": "app.js",
+  "bin": "app.js",
+  "node-main": "./app.js",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "pkg . --targets node18-linux-x64 --output gst-backend"
+  },
+  "pkg": {
+    "assets": [
+      "views/**/*",
+      "public/**/*",
+      "icon/**/*",
+      "node_modules/jade/**/*"
+    ],
+    "scripts": [
+      "routes/**/*.js"
+    ]
   },
   "dependencies": {
     "adm-zip": "^0.4.7",
